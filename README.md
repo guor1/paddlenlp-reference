@@ -1,0 +1,7 @@
+# 写在前面
+本项目是基于百度paddle框架，复现NLP领域的一些任务，仅供学习交流使用。
+
+# 为什么用paddle不用pytorch？
+1. 因为那一堵墙，huggingface、pytorch、tensorflow很多资源下载很慢，还下载不下来。
+2. 飞浆AI Studio提供了免费的算力资源，甚至还可以免费使用GPU，不过现在开始推广会员收费了。
+3. 在语法方面，其实paddle和pytorch的语法差异很小，基本都是换了包名，确实有差异的读一下api文档也能快速迁移。
